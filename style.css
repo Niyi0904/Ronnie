@@ -1,0 +1,339 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: pink;
+}
+.main-header{
+    background-image: url("background.jpg");
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: multiply;
+    background-size: cover;
+    opacity: unset;
+    padding-bottom: 100px;
+}
+/* Navbar Section */
+.nav{
+    margin: 0px;
+    border-bottom: 1px solid lightskyblue;
+    position: sticky;
+    background-color:rgba(0, 0, 0, 0.2);
+    width: 100%;
+    top: 0px;
+
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 10px;
+}
+.nav ul li{
+    display: flex;
+    padding-bottom:5px;
+}
+.nav ul li a{
+    padding: 0px 40px;
+    text-decoration: none;
+    color: lightskyblue;
+}
+.nav ul li a:hover{
+    background-color: lightskyblue;
+    color: palevioletred;
+    box-shadow: 0 0 3px 2px;
+    transition: all .5s ease;
+    border: 1px solid white;
+    border-radius: 1000px;
+}
+
+.container{
+    text-align: center;
+    margin-top: 150px;
+}
+div .main-heading{
+    color: lightskyblue;
+    padding-bottom: 25px;
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div .main-heading .heading{
+    font-weight: lighter;
+    font-size: 15px;
+}
+div .btn{
+    background-color: transparent;
+    color: palevioletred;
+    padding: 5px;
+    border: 1px solid lightskyblue;
+    box-shadow: 0 0 6px 5px;
+}
+div .btn:hover{
+    background-color: lightskyblue;
+    color: palevioletred
+}
+
+/* About section */
+.section-header{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+div .about-img{
+    width: 250px;
+    height: 250px;
+    float: left;
+    border: 1px solid lightskyblue;
+    border-radius: 150%;
+    margin: 5px 15px;
+}
+p{
+    padding-left: 30px;
+}
+.about-span{
+    word-spacing: 20px;
+    letter-spacing: 1px;
+}
+.about-div{
+    margin: 50px;
+}
+.about-paragraph{
+    margin-top: 40px;
+}
+.about-italics{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* Footer section */
+.main-footer{
+    border-top: 2px solid white;
+    display: flex;
+    list-style: none;
+    background-color: pink;
+    color: white;
+    margin-top: 5px;
+}
+.main-footer ul{
+    list-style: none;
+    padding-left: 60px;
+    margin-left: 350px;
+    margin-top: 35px;
+}
+.main-footer ul li{
+    display: inline;
+}
+.main-footer ul li a{
+    text-decoration: none;
+    padding-left: 15px;
+}
+.footer-img{
+    width:300px;
+    height: 100px;
+    margin: 0px;
+}
+
+/* Store Section */
+.main-nav{
+    margin: 0px;
+    text-align: center;
+    font-size: 1.5em;
+}
+.main-nav ul{
+   display: flex;
+   list-style: none;
+   justify-content: center;
+   padding: 10px;
+   color: pink;
+}
+.main-nav ul li{
+   display: inline;
+   padding-bottom: 10px;
+   color: pink;
+}
+.main-nav ul li a{
+   padding: 0px 40px;
+   text-decoration: none;
+   color: lightskyblue;
+   border: 1px solid palevioletred;
+   margin-left: 70px;
+   background-color: palevioletred;
+   padding: 9px 30px;
+   border-radius: 1000px;
+}
+.main-nav ul li a:hover{
+   background-color: lightskyblue;
+   color: palevioletred;
+   box-shadow: 0 0 3px 2px;
+   transition: all .5s ease;
+   border: 1px solid white;
+}
+#clothes{
+    margin: 1em;
+    max-width: 900px;
+}
+#clothes h2{
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+/* STORE FEMALE SECTION */
+.female-shop-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    color: black;
+    margin-bottom: 30px;
+    word-spacing: 10px;
+}
+.female-shop-item{
+    display: flex;
+    margin: 30px;
+    width: 100%;
+    align-items: center;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    max-width: 900px;
+}
+img{
+    height: 250px;
+    width: 250px;
+    margin-left: 20px;
+    
+}
+.female-shop-button{
+    border: 1px solid white;
+    padding: 10px 100px;
+    background-color: palevioletred;
+    color: lightskyblue;
+    border-radius: 100px;
+}
+.female-shop-button:hover{
+    background-color: lightskyblue;
+    color: palevioletred;
+}
+.female-shop-details{
+    text-align : center;
+    padding: 10px;
+
+}
+.female-shop-price{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.female-shop-item-details{
+    margin-bottom: 50px;
+    border: 1px solid pink;
+    padding: 10px;
+    box-shadow: 0 0 7px 2px;
+    background-color: pink;
+}
+
+/* Cart Section */
+.cart-header{
+    font-weight: bold;
+    font-size: 1.25em;
+    color: black;
+}
+.cart-column{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin: 1.1em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.cart-row{
+    display: flex;
+}
+.cart-item{
+    width: 45%
+}
+.cart.price{
+    width: 20%;
+    font-size: .2em;
+    color:  black;
+}
+.cart-quantity{
+    width: 35%;
+}
+.cart-item-title{
+    color: black;
+    margin: .5em;
+    font-size: 1.2em;
+}
+.cart-item-img{
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+.btns{
+    background-color: lightskyblue;
+    color: palevioletred;
+    padding: 10px;
+    border: none;
+    box-shadow: 0 0 6px 5px;
+}
+.btns:hover{
+    background-color: palevioletred;
+    color: lightskyblue;
+}
+.cart-quantity-input{
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid lightskyblue;
+    background-color:rgba(0, 0, 0, 0.5);
+    color: black;
+    padding: 0px;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+.cart-row:last-child{
+    border-bottom: 1px solid black;
+}
+.cart-row:last-child .cart-column{
+    border: none;
+}
+.cart-total{
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.cart-total-title{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-right: 20px;
+    color: black;
+}
+.cart-total-price{
+    color: black;
+    font-size: 1.2em;
+}
+.btn-purchase{
+    border: 1px solid white;
+    padding: 10px 100px;
+    background-color: palevioletred;
+    color: lightskyblue;
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 1.75em;
+
+}
+.btn-purchase:hover{
+    background-color: lightskyblue;
+    color: palevioletred;
+}
